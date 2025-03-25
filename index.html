@@ -3,17 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cambiar Imágenes</title>
+    <title>Galería de Imágenes</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="botones">
-      <button id="btn1">Imagen 1</button>
-      <button id="btn2">Imagen 2</button>
-      <button id="btn3">Imagen 3</button>
-    </div>
+    <div class="contenedor">
+      <h1>Mi Galería</h1>
 
-    <div class="imagen-container">
-      <img id="imagen" src="" alt="Imagen cambiante" />
+      <div class="contenedor-imagen">
+        <div class="marco-imagen">
+          <img
+            id="imagen"
+            src="https://images.unsplash.com/photo-1742316946714-b06b7cb98e53?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyN3x8fGVufDB8fHx8fA%3D%3D"
+            alt="Imagen de la galería"
+          />
+        </div>
+      </div>
+
+      <div class="controles">
+        <button id="btn1" class="boton-imagen">Imagen 1</button>
+        <button id="btn2" class="boton-imagen">Imagen 2</button>
+        <button id="btn3" class="boton-imagen">Imagen 3</button>
+      </div>
     </div>
 
     <script src="script.js"></script>
